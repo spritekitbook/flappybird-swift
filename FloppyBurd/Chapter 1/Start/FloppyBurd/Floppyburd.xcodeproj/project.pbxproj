@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F7EC5F31C7968C20000E18C /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3F7EC5F21C7968C20000E18C /* GameScene.sks */; };
 		3F7EC5FA1C7968C20000E18C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7EC5F81C7968C20000E18C /* Main.storyboard */; };
 		3F7EC5FC1C7968C20000E18C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F7EC5FB1C7968C20000E18C /* Assets.xcassets */; };
 		3F7EC60A1C7968C20000E18C /* floppyburdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7EC6091C7968C20000E18C /* floppyburdTests.swift */; };
@@ -50,7 +49,6 @@
 
 /* Begin PBXFileReference section */
 		3F7EC5ED1C7968C20000E18C /* Floppyburd.temp_caseinsensitive_rename.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Floppyburd.temp_caseinsensitive_rename.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F7EC5F21C7968C20000E18C /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		3F7EC5F91C7968C20000E18C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F7EC5FB1C7968C20000E18C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F7EC6001C7968C20000E18C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -129,7 +127,6 @@
 			children = (
 				3FAF97611C796999002C143D /* Game Resources */,
 				3FAF97891C796DDA002C143D /* Classes */,
-				3F7EC5F21C7968C20000E18C /* GameScene.sks */,
 				3F7EC5FB1C7968C20000E18C /* Assets.xcassets */,
 				3F7EC6001C7968C20000E18C /* Info.plist */,
 			);
@@ -346,7 +343,6 @@
 			files = (
 				3FAF977D1C796B0E002C143D /* Default-568h@2x.png in Resources */,
 				3FAF977F1C796B0E002C143D /* Default@2x~ipad.png in Resources */,
-				3F7EC5F31C7968C20000E18C /* GameScene.sks in Resources */,
 				3FAF97641C7969A7002C143D /* editundo.ttf in Resources */,
 				3FAF97811C796B0E002C143D /* Default~ipad.png in Resources */,
 				3FAF97701C7969BA002C143D /* Crash.caf in Resources */,

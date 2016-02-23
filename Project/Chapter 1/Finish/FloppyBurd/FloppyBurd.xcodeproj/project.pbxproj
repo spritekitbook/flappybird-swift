@@ -39,6 +39,15 @@
 		3FA2ACBD1C7BE410005F4564 /* SKTEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2ACB21C7BE410005F4564 /* SKTEffects.swift */; };
 		3FA2ACBE1C7BE410005F4564 /* SKTTimingFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2ACB31C7BE410005F4564 /* SKTTimingFunctions.swift */; };
 		3FA2ACBF1C7BE410005F4564 /* Vector3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2ACB41C7BE410005F4564 /* Vector3.swift */; };
+		3FA2AD001C7BEA59005F4564 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2ACFF1C7BEA59005F4564 /* Constants.swift */; };
+		3FA2AD021C7BEE57005F4564 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2AD011C7BEE57005F4564 /* Colors.swift */; };
+		3FA2AD041C7BF2CC005F4564 /* SpriteName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2AD031C7BF2CC005F4564 /* SpriteName.swift */; };
+		3FA2AD071C7BF75B005F4564 /* GameTextures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2AD061C7BF75B005F4564 /* GameTextures.swift */; };
+		3FA2AD0A1C7BF773005F4564 /* PlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2AD091C7BF773005F4564 /* PlayButton.swift */; };
+		3FA2AD0C1C7BF978005F4564 /* TutorialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2AD0B1C7BF978005F4564 /* TutorialButton.swift */; };
+		3FA2AD0E1C7BFA81005F4564 /* RetryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2AD0D1C7BFA81005F4564 /* RetryButton.swift */; };
+		3FA2AD101C7BFCDE005F4564 /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2AD0F1C7BFCDE005F4564 /* MenuScene.swift */; };
+		3FA2AD121C7C0102005F4564 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2AD111C7C0102005F4564 /* GameOverScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +106,15 @@
 		3FA2ACB21C7BE410005F4564 /* SKTEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTEffects.swift; sourceTree = "<group>"; };
 		3FA2ACB31C7BE410005F4564 /* SKTTimingFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTTimingFunctions.swift; sourceTree = "<group>"; };
 		3FA2ACB41C7BE410005F4564 /* Vector3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vector3.swift; sourceTree = "<group>"; };
+		3FA2ACFF1C7BEA59005F4564 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3FA2AD011C7BEE57005F4564 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		3FA2AD031C7BF2CC005F4564 /* SpriteName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpriteName.swift; sourceTree = "<group>"; };
+		3FA2AD061C7BF75B005F4564 /* GameTextures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameTextures.swift; sourceTree = "<group>"; };
+		3FA2AD091C7BF773005F4564 /* PlayButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayButton.swift; sourceTree = "<group>"; };
+		3FA2AD0B1C7BF978005F4564 /* TutorialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialButton.swift; sourceTree = "<group>"; };
+		3FA2AD0D1C7BFA81005F4564 /* RetryButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RetryButton.swift; sourceTree = "<group>"; };
+		3FA2AD0F1C7BFCDE005F4564 /* MenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
+		3FA2AD111C7C0102005F4564 /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +194,9 @@
 		3FA2AC7E1C7BB041005F4564 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				3FA2AD081C7BF768005F4564 /* Buttons */,
+				3FA2AD051C7BF74C005F4564 /* Singletons */,
+				3FA2ACFE1C7BE904005F4564 /* Utilities */,
 				3FA2ACA71C7BB0A6005F4564 /* Scenes */,
 				3FA2ACA61C7BB091005F4564 /* View Controller */,
 			);
@@ -250,6 +271,8 @@
 			isa = PBXGroup;
 			children = (
 				3FA2AC801C7BB041005F4564 /* GameScene.swift */,
+				3FA2AD0F1C7BFCDE005F4564 /* MenuScene.swift */,
+				3FA2AD111C7C0102005F4564 /* GameOverScene.swift */,
 			);
 			name = Scenes;
 			sourceTree = "<group>";
@@ -278,6 +301,34 @@
 				3FA2ACB41C7BE410005F4564 /* Vector3.swift */,
 			);
 			path = SKTUtils;
+			sourceTree = "<group>";
+		};
+		3FA2ACFE1C7BE904005F4564 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				3FA2ACFF1C7BEA59005F4564 /* Constants.swift */,
+				3FA2AD011C7BEE57005F4564 /* Colors.swift */,
+				3FA2AD031C7BF2CC005F4564 /* SpriteName.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		3FA2AD051C7BF74C005F4564 /* Singletons */ = {
+			isa = PBXGroup;
+			children = (
+				3FA2AD061C7BF75B005F4564 /* GameTextures.swift */,
+			);
+			name = Singletons;
+			sourceTree = "<group>";
+		};
+		3FA2AD081C7BF768005F4564 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				3FA2AD091C7BF773005F4564 /* PlayButton.swift */,
+				3FA2AD0B1C7BF978005F4564 /* TutorialButton.swift */,
+				3FA2AD0D1C7BFA81005F4564 /* RetryButton.swift */,
+			);
+			name = Buttons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -431,13 +482,22 @@
 				3FA2ACB61C7BE410005F4564 /* CGPoint+Extensions.swift in Sources */,
 				3FA2ACBA1C7BE410005F4564 /* SKAction+SpecialEffects.swift in Sources */,
 				3FA2ACB71C7BE410005F4564 /* CGVector+Extensions.swift in Sources */,
+				3FA2AD001C7BEA59005F4564 /* Constants.swift in Sources */,
 				3FA2ACB91C7BE410005F4564 /* SKAction+Extensions.swift in Sources */,
+				3FA2AD071C7BF75B005F4564 /* GameTextures.swift in Sources */,
+				3FA2AD0A1C7BF773005F4564 /* PlayButton.swift in Sources */,
 				3FA2ACBF1C7BE410005F4564 /* Vector3.swift in Sources */,
 				3FA2ACBB1C7BE410005F4564 /* SKColor+Extensions.swift in Sources */,
+				3FA2AD021C7BEE57005F4564 /* Colors.swift in Sources */,
 				3FA2AC821C7BB041005F4564 /* AppDelegate.swift in Sources */,
+				3FA2AD101C7BFCDE005F4564 /* MenuScene.swift in Sources */,
 				3FA2ACB81C7BE410005F4564 /* Int+Extensions.swift in Sources */,
+				3FA2AD0E1C7BFA81005F4564 /* RetryButton.swift in Sources */,
 				3FA2ACBE1C7BE410005F4564 /* SKTTimingFunctions.swift in Sources */,
+				3FA2AD0C1C7BF978005F4564 /* TutorialButton.swift in Sources */,
 				3FA2ACBC1C7BE410005F4564 /* SKNode+Extensions.swift in Sources */,
+				3FA2AD041C7BF2CC005F4564 /* SpriteName.swift in Sources */,
+				3FA2AD121C7C0102005F4564 /* GameOverScene.swift in Sources */,
 				3FA2ACB51C7BE410005F4564 /* CGFloat+Extensions.swift in Sources */,
 				3FA2AC841C7BB041005F4564 /* GameViewController.swift in Sources */,
 			);

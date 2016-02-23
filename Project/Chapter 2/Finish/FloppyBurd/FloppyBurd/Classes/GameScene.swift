@@ -28,11 +28,11 @@ class GameScene:SKScene, SKPhysicsContactDelegate {
     }
     
     override func didMoveToView(view: SKView) {
-        self.setupMenuScene()
+        self.setupScene()
     }
     
     // MARK: - Setup
-    private func setupMenuScene() {
+    private func setupScene() {
         // Set the background color
         self.backgroundColor = Colors.colorFromRGB(rgbvalue: Colors.Background)
         
@@ -47,11 +47,25 @@ class GameScene:SKScene, SKPhysicsContactDelegate {
         self.physicsBody?.contactTestBitMask = 0x0
         
         // Add the play button
-        self.addChild(self.tutorialButton)
+        //self.addChild(self.tutorialButton)
+        
+        // Add the game node to the scene
+        self.addChild(self.gameNode)
+        
+        // Add the ground to the game node
+        self.gameNode.addChild(self.ground)
+        
+        // Add the tutorial button to the game node
+        self.gameNode.addChild(self.tutorialButton)
     }
     
     // MARK: - Update
     override func update(currentTime: NSTimeInterval) {
+        // Calculate "delta"
+        let delta = currentTime - self.lastUpdateTime
+        self.lastUpdateTime = currentTime
+        
+        self.ground.update(delta: delta)
     }
     
     // MARK: - Touch Events

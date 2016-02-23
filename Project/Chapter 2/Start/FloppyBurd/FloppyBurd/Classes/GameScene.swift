@@ -23,11 +23,11 @@ class GameScene:SKScene {
     }
     
     override func didMoveToView(view: SKView) {
-        self.setupMenuScene()
+        self.setupScene()
     }
     
     // MARK: - Setup
-    private func setupMenuScene() {
+    private func setupScene() {
         // Set the background color
         self.backgroundColor = Colors.colorFromRGB(rgbvalue: Colors.Background)
         

@@ -25,7 +25,7 @@ class GameFonts {
     
     // MARK: - Private class constants
     private let fontName = "Edit Undo BRK"
-    private let scoreLabelSize:CGFloat = kDeviceTablet ? 300.0 : 200.0
+    private let scoreLabelSize:CGFloat = kDeviceTablet ? 400.0 : 200.0
     private let scoreBoardSize:CGFloat = kDeviceTablet ? 120 : 60.0
     private let messageSize:CGFloat = kDeviceTablet ? 84.0 : 42.0
     

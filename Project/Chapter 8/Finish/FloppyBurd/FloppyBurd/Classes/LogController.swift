@@ -13,7 +13,7 @@ class LogController:SKNode {
     // MARK: - Private class constants
     private let bottomLog = Log(logType: Log.LogType.Bottom)
     private let topLog = Log(logType: Log.LogType.Top)
-    private let logGap:CGFloat = 250.0
+    private let logGap:CGFloat = kDeviceTablet ? 500.0 : 250.0
     
     // MARK: - Private class variables
     private var logArray = [SKSpriteNode]()

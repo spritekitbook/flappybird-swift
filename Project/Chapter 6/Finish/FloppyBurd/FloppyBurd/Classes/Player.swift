@@ -70,10 +70,10 @@ class Player:SKSpriteNode {
     
     // MARK: - Actions
     func fly () {
-        self.physicsBody!.velocity = CGVectorMake(0, 0)
-        self.physicsBody!.applyImpulse(CGVectorMake(0, 20))
+        let impulse = kDeviceTablet ? CGVectorMake(0, 100) : CGVectorMake(0, 20)
         
-        self.runAction(GameAudio.sharedInstance.flapSound)
+        self.physicsBody!.velocity = CGVectorMake(0, 0)
+        self.physicsBody!.applyImpulse(impulse)
     }
     
     // MARK: - Update Score

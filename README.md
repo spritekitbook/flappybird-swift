@@ -6,6 +6,9 @@ Together we’ll build a complete game using good Object Oriented practices. Our
 
 All you need is a Mac and <a href="https://itunes.apple.com/us/app/xcode/id497799835?mt=12">Xcode</a> which can be downloaded for free from the Mac App Store. I’ve provided everything else. Let’s get started!
 
+<p align="center">
+ <a href="http://itunes.apple.com/us/book/id1088000607" target="_blank"><img align="center" src="http://linkmaker.itunes.apple.com/images/badges/en-us/badge_ibooks-lrg.svg"/></a>
+</p>
 
 <p align="center">
   <a href="https://itunes.apple.com/us/book/id1080204614"><img src="http://i.imgur.com/0ub5s5F.png" width="50%"></a>

@@ -4,7 +4,7 @@ Learn to make 2D Games for Apple Devices by building a clone of the infamous Fla
 
 Together we’ll build a complete game using good Object Oriented practices. Our game will be made using Apple’s game development engine called SpriteKit and the Swift programming language.
 
-All you need is a Mac and Xcode which can be downloaded for free from the Mac App Store. I’ve provided everything else. Let’s get started!
+All you need is a Mac and <a href="https://itunes.apple.com/us/app/xcode/id497799835?mt=12">Xcode</a> which can be downloaded for free from the Mac App Store. I’ve provided everything else. Let’s get started!
 
 
 <p align="center">

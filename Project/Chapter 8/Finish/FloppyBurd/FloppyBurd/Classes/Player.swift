@@ -92,6 +92,9 @@ class Player:SKSpriteNode {
     func crashed() {
         // Play the crashed sound
         self.runAction(GameAudio.sharedInstance.crashSound)
+        
+        self.stopAnimation()
+        self.animateSmoke()
     }
     
     func smacked() {
@@ -99,6 +102,19 @@ class Player:SKSpriteNode {
         self.runAction(GameAudio.sharedInstance.smackSound, completion: {
             self.runAction(GameAudio.sharedInstance.fallSound)
         })
+        
+        self.stopAnimation()
+        self.animateSmoke()
+    }
+    
+    private func stopAnimation() {
+        self.removeActionForKey(self.animationName)
+    }
+    
+    private func animateSmoke() {
+        let smoke = Smoke()
+        self.addChild(smoke)
+        smoke.animateSmoke()
     }
     
     // MARK: - Game Over

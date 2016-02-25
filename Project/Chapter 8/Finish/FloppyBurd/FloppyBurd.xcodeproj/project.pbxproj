@@ -24,6 +24,7 @@
 		3F054B0B1C7F457200DD67D9 /* Hills.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F054B0A1C7F457200DD67D9 /* Hills.swift */; };
 		3F054B0D1C7F46C300DD67D9 /* Cloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F054B0C1C7F46C300DD67D9 /* Cloud.swift */; };
 		3F054B0F1C7F5BDA00DD67D9 /* CloudController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F054B0E1C7F5BDA00DD67D9 /* CloudController.swift */; };
+		3F054B111C7F763E00DD67D9 /* Smoke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F054B101C7F763E00DD67D9 /* Smoke.swift */; };
 		3FA2AC561C7BAFB6005F4564 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA2AC541C7BAFB6005F4564 /* Main.storyboard */; };
 		3FA2AC581C7BAFB6005F4564 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FA2AC571C7BAFB6005F4564 /* Assets.xcassets */; };
 		3FA2AC661C7BAFB6005F4564 /* FloppyBurdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2AC651C7BAFB6005F4564 /* FloppyBurdTests.swift */; };
@@ -102,6 +103,7 @@
 		3F054B0A1C7F457200DD67D9 /* Hills.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hills.swift; sourceTree = "<group>"; };
 		3F054B0C1C7F46C300DD67D9 /* Cloud.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cloud.swift; sourceTree = "<group>"; };
 		3F054B0E1C7F5BDA00DD67D9 /* CloudController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudController.swift; sourceTree = "<group>"; };
+		3F054B101C7F763E00DD67D9 /* Smoke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Smoke.swift; sourceTree = "<group>"; };
 		3FA2AC491C7BAFB6005F4564 /* FloppyBurd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FloppyBurd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FA2AC551C7BAFB6005F4564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3FA2AC571C7BAFB6005F4564 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -192,6 +194,7 @@
 			isa = PBXGroup;
 			children = (
 				3F054AED1C7CC8DF00DD67D9 /* Player.swift */,
+				3F054B101C7F763E00DD67D9 /* Smoke.swift */,
 			);
 			name = Player;
 			sourceTree = "<group>";
@@ -571,6 +574,7 @@
 				3F054AFA1C7E2CD900DD67D9 /* ScoreLabel.swift in Sources */,
 				3FA2ACBA1C7BE410005F4564 /* SKAction+SpecialEffects.swift in Sources */,
 				3FA2ACB71C7BE410005F4564 /* CGVector+Extensions.swift in Sources */,
+				3F054B111C7F763E00DD67D9 /* Smoke.swift in Sources */,
 				3FA2AD001C7BEA59005F4564 /* Constants.swift in Sources */,
 				3FA2ACB91C7BE410005F4564 /* SKAction+Extensions.swift in Sources */,
 				3F054B051C7E607700DD67D9 /* GameTitle.swift in Sources */,

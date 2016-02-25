@@ -149,6 +149,8 @@ class GameScene:SKScene, SKPhysicsContactDelegate {
                     print("Game Over: Player crashed into the scene.")
                 } else {
                     self.player.crashed()
+                    self.flashBackground()
+                    self.shakeBackground()
                     self.switchToGameOver()
                 }
             }
@@ -159,6 +161,8 @@ class GameScene:SKScene, SKPhysicsContactDelegate {
                     print("Game Over: Player crashed into a log.")
                 } else {
                     self.player.smacked()
+                    self.flashBackground()
+                    self.shakeBackground()
                     self.switchToGameOver()
                 }
             }
@@ -205,6 +209,22 @@ class GameScene:SKScene, SKPhysicsContactDelegate {
         self.runAction(SKAction.waitForDuration(1.5), completion: {
             self.loadGameOverScene()
         })
+    }
+    
+    // MARK: - Animation Functions
+    func flashBackground() {
+        let colorFlash = SKAction.runBlock({
+            self.backgroundColor = Colors.colorFromRGB(rgbvalue: Colors.Flash)
+            self.runAction(SKAction.waitForDuration(0.5), completion: {
+                self.backgroundColor = Colors.colorFromRGB(rgbvalue: Colors.Background)
+            })
+        })
+        self.runAction(colorFlash)
+    }
+    
+    func shakeBackground() {
+        let shake = SKAction.screenShakeWithNode(self.gameNode, amount: CGPoint(x: -25, y: 10), oscillations: 10, duration: 0.75)
+        self.runAction(shake)
     }
     
     // MARK: - Load Scene

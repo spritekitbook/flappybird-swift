@@ -25,6 +25,12 @@
 		3F054B0D1C7F46C300DD67D9 /* Cloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F054B0C1C7F46C300DD67D9 /* Cloud.swift */; };
 		3F054B0F1C7F5BDA00DD67D9 /* CloudController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F054B0E1C7F5BDA00DD67D9 /* CloudController.swift */; };
 		3F054B111C7F763E00DD67D9 /* Smoke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F054B101C7F763E00DD67D9 /* Smoke.swift */; };
+		3F985E711C86614300ED3799 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F985E6B1C86614300ED3799 /* Default-568h@2x.png */; };
+		3F985E721C86614300ED3799 /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F985E6C1C86614300ED3799 /* Default-667h@2x.png */; };
+		3F985E731C86614300ED3799 /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F985E6D1C86614300ED3799 /* Default-736h@3x.png */; };
+		3F985E741C86614300ED3799 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F985E6E1C86614300ED3799 /* Default@2x.png */; };
+		3F985E751C86614300ED3799 /* Default@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F985E6F1C86614300ED3799 /* Default@2x~ipad.png */; };
+		3F985E761C86614300ED3799 /* Default~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F985E701C86614300ED3799 /* Default~ipad.png */; };
 		3FA2AC561C7BAFB6005F4564 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA2AC541C7BAFB6005F4564 /* Main.storyboard */; };
 		3FA2AC581C7BAFB6005F4564 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FA2AC571C7BAFB6005F4564 /* Assets.xcassets */; };
 		3FA2AC661C7BAFB6005F4564 /* FloppyBurdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2AC651C7BAFB6005F4564 /* FloppyBurdTests.swift */; };
@@ -33,11 +39,6 @@
 		3FA2AC831C7BB041005F4564 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2AC801C7BB041005F4564 /* GameScene.swift */; };
 		3FA2AC841C7BB041005F4564 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2AC811C7BB041005F4564 /* GameViewController.swift */; };
 		3FA2AC981C7BB061005F4564 /* editundo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3FA2AC871C7BB061005F4564 /* editundo.ttf */; };
-		3FA2AC991C7BB061005F4564 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FA2AC891C7BB061005F4564 /* Default-568h@2x.png */; };
-		3FA2AC9A1C7BB061005F4564 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FA2AC8A1C7BB061005F4564 /* Default@2x.png */; };
-		3FA2AC9B1C7BB061005F4564 /* Default@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FA2AC8B1C7BB061005F4564 /* Default@2x~ipad.png */; };
-		3FA2AC9C1C7BB061005F4564 /* Default@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FA2AC8C1C7BB061005F4564 /* Default@3x.png */; };
-		3FA2AC9D1C7BB061005F4564 /* Default~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FA2AC8D1C7BB061005F4564 /* Default~ipad.png */; };
 		3FA2AC9E1C7BB061005F4564 /* Pixel Adventures.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3FA2AC8F1C7BB061005F4564 /* Pixel Adventures.mp3 */; };
 		3FA2AC9F1C7BB061005F4564 /* Crash.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3FA2AC911C7BB061005F4564 /* Crash.caf */; };
 		3FA2ACA01C7BB061005F4564 /* Fall.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3FA2AC921C7BB061005F4564 /* Fall.caf */; };
@@ -104,6 +105,12 @@
 		3F054B0C1C7F46C300DD67D9 /* Cloud.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cloud.swift; sourceTree = "<group>"; };
 		3F054B0E1C7F5BDA00DD67D9 /* CloudController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudController.swift; sourceTree = "<group>"; };
 		3F054B101C7F763E00DD67D9 /* Smoke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Smoke.swift; sourceTree = "<group>"; };
+		3F985E6B1C86614300ED3799 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3F985E6C1C86614300ED3799 /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
+		3F985E6D1C86614300ED3799 /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
+		3F985E6E1C86614300ED3799 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3F985E6F1C86614300ED3799 /* Default@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x~ipad.png"; sourceTree = "<group>"; };
+		3F985E701C86614300ED3799 /* Default~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default~ipad.png"; sourceTree = "<group>"; };
 		3FA2AC491C7BAFB6005F4564 /* FloppyBurd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FloppyBurd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FA2AC551C7BAFB6005F4564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3FA2AC571C7BAFB6005F4564 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -118,11 +125,6 @@
 		3FA2AC801C7BB041005F4564 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		3FA2AC811C7BB041005F4564 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		3FA2AC871C7BB061005F4564 /* editundo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = editundo.ttf; sourceTree = "<group>"; };
-		3FA2AC891C7BB061005F4564 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		3FA2AC8A1C7BB061005F4564 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		3FA2AC8B1C7BB061005F4564 /* Default@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x~ipad.png"; sourceTree = "<group>"; };
-		3FA2AC8C1C7BB061005F4564 /* Default@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@3x.png"; sourceTree = "<group>"; };
-		3FA2AC8D1C7BB061005F4564 /* Default~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default~ipad.png"; sourceTree = "<group>"; };
 		3FA2AC8F1C7BB061005F4564 /* Pixel Adventures.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Pixel Adventures.mp3"; sourceTree = "<group>"; };
 		3FA2AC911C7BB061005F4564 /* Crash.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Crash.caf; sourceTree = "<group>"; };
 		3FA2AC921C7BB061005F4564 /* Fall.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fall.caf; sourceTree = "<group>"; };
@@ -308,11 +310,12 @@
 		3FA2AC881C7BB061005F4564 /* Launch */ = {
 			isa = PBXGroup;
 			children = (
-				3FA2AC891C7BB061005F4564 /* Default-568h@2x.png */,
-				3FA2AC8A1C7BB061005F4564 /* Default@2x.png */,
-				3FA2AC8B1C7BB061005F4564 /* Default@2x~ipad.png */,
-				3FA2AC8C1C7BB061005F4564 /* Default@3x.png */,
-				3FA2AC8D1C7BB061005F4564 /* Default~ipad.png */,
+				3F985E6B1C86614300ED3799 /* Default-568h@2x.png */,
+				3F985E6C1C86614300ED3799 /* Default-667h@2x.png */,
+				3F985E6D1C86614300ED3799 /* Default-736h@3x.png */,
+				3F985E6E1C86614300ED3799 /* Default@2x.png */,
+				3F985E6F1C86614300ED3799 /* Default@2x~ipad.png */,
+				3F985E701C86614300ED3799 /* Default~ipad.png */,
 			);
 			path = Launch;
 			sourceTree = "<group>";
@@ -524,21 +527,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FA2ACA51C7BB061005F4564 /* Smack.caf in Resources */,
+				3F985E751C86614300ED3799 /* Default@2x~ipad.png in Resources */,
 				3FA2AC581C7BAFB6005F4564 /* Assets.xcassets in Resources */,
-				3FA2AC991C7BB061005F4564 /* Default-568h@2x.png in Resources */,
+				3F985E761C86614300ED3799 /* Default~ipad.png in Resources */,
+				3F985E721C86614300ED3799 /* Default-667h@2x.png in Resources */,
 				3FA2ACA21C7BB061005F4564 /* HighScore.caf in Resources */,
 				3FA2ACA41C7BB061005F4564 /* Score.caf in Resources */,
 				3FA2AC9F1C7BB061005F4564 /* Crash.caf in Resources */,
+				3F985E711C86614300ED3799 /* Default-568h@2x.png in Resources */,
 				3FA2ACA31C7BB061005F4564 /* Pop.caf in Resources */,
-				3FA2AC9A1C7BB061005F4564 /* Default@2x.png in Resources */,
 				3FA2ACA01C7BB061005F4564 /* Fall.caf in Resources */,
-				3FA2AC9B1C7BB061005F4564 /* Default@2x~ipad.png in Resources */,
-				3FA2AC9D1C7BB061005F4564 /* Default~ipad.png in Resources */,
 				3FA2ACA11C7BB061005F4564 /* Flap.caf in Resources */,
 				3FA2AC9E1C7BB061005F4564 /* Pixel Adventures.mp3 in Resources */,
 				3FA2AC981C7BB061005F4564 /* editundo.ttf in Resources */,
+				3F985E741C86614300ED3799 /* Default@2x.png in Resources */,
 				3FA2AC561C7BAFB6005F4564 /* Main.storyboard in Resources */,
-				3FA2AC9C1C7BB061005F4564 /* Default@3x.png in Resources */,
+				3F985E731C86614300ED3799 /* Default-736h@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -739,10 +743,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = FloppyBurd/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.changeme.FloppyBurd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -751,10 +757,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = FloppyBurd/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.changeme.FloppyBurd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

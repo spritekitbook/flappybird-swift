@@ -184,7 +184,7 @@ class GameScene:SKScene, SKPhysicsContactDelegate {
         self.tutorialButton.tapped()
         
         // Enable gravity
-        self.physicsWorld.gravity = CGVectorMake(0, -10)
+        self.physicsWorld.gravity = kDeviceTablet ? CGVectorMake(0, -20) : CGVectorMake(0, -10)
     }
     
     private func switchToPaused() {

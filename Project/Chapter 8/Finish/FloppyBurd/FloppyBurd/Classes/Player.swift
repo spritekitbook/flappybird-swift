@@ -70,7 +70,15 @@ class Player:SKSpriteNode {
     
     // MARK: - Actions
     func fly () {
-        let impulse = kDeviceTablet ? CGVectorMake(0, 100) : CGVectorMake(0, 20)
+        var impulse = CGVectorMake(0, 0)
+        
+        // Is the device retina? (.scale == 2.0)
+        if UIScreen.mainScreen().scale == 2.0 {
+            impulse = kDeviceTablet ? CGVectorMake(0, 150) : CGVectorMake(0, 20)
+        } else {
+            impulse = kDeviceTablet ? CGVectorMake(0, 220) : CGVectorMake(0, 20)
+        }
+        
         
         self.physicsBody!.velocity = CGVectorMake(0, 0)
         self.physicsBody!.applyImpulse(impulse)
@@ -80,7 +88,7 @@ class Player:SKSpriteNode {
     
     // MARK: - Update Score
     func updateScore() {
-        self.score++
+        self.score += 1
         
         // Play the score sound
         self.runAction(GameAudio.sharedInstance.scoreSound)

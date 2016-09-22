@@ -15,8 +15,6 @@
 		3F985DDA1C86600E00ED3799 /* Default~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F985DD41C86600E00ED3799 /* Default~ipad.png */; };
 		3FA2AC561C7BAFB6005F4564 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA2AC541C7BAFB6005F4564 /* Main.storyboard */; };
 		3FA2AC581C7BAFB6005F4564 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FA2AC571C7BAFB6005F4564 /* Assets.xcassets */; };
-		3FA2AC661C7BAFB6005F4564 /* FloppyBurdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2AC651C7BAFB6005F4564 /* FloppyBurdTests.swift */; };
-		3FA2AC711C7BAFB6005F4564 /* FloppyBurdUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2AC701C7BAFB6005F4564 /* FloppyBurdUITests.swift */; };
 		3FA2AC821C7BB041005F4564 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2AC7F1C7BB041005F4564 /* AppDelegate.swift */; };
 		3FA2AC831C7BB041005F4564 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2AC801C7BB041005F4564 /* GameScene.swift */; };
 		3FA2AC841C7BB041005F4564 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2AC811C7BB041005F4564 /* GameViewController.swift */; };
@@ -51,23 +49,6 @@
 		3FA2AD121C7C0102005F4564 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2AD111C7C0102005F4564 /* GameOverScene.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		3FA2AC621C7BAFB6005F4564 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3FA2AC411C7BAFB6005F4564 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3FA2AC481C7BAFB6005F4564;
-			remoteInfo = FloppyBurd;
-		};
-		3FA2AC6D1C7BAFB6005F4564 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3FA2AC411C7BAFB6005F4564 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3FA2AC481C7BAFB6005F4564;
-			remoteInfo = FloppyBurd;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		3F985DCF1C86600E00ED3799 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		3F985DD01C86600E00ED3799 /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
@@ -79,10 +60,8 @@
 		3FA2AC551C7BAFB6005F4564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3FA2AC571C7BAFB6005F4564 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FA2AC5C1C7BAFB6005F4564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3FA2AC611C7BAFB6005F4564 /* FloppyBurdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FloppyBurdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FA2AC651C7BAFB6005F4564 /* FloppyBurdTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloppyBurdTests.swift; sourceTree = "<group>"; };
 		3FA2AC671C7BAFB6005F4564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3FA2AC6C1C7BAFB6005F4564 /* FloppyBurdUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FloppyBurdUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FA2AC701C7BAFB6005F4564 /* FloppyBurdUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloppyBurdUITests.swift; sourceTree = "<group>"; };
 		3FA2AC721C7BAFB6005F4564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FA2AC7F1C7BB041005F4564 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -127,20 +106,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3FA2AC5E1C7BAFB6005F4564 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3FA2AC691C7BAFB6005F4564 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -158,8 +123,6 @@
 			isa = PBXGroup;
 			children = (
 				3FA2AC491C7BAFB6005F4564 /* FloppyBurd.app */,
-				3FA2AC611C7BAFB6005F4564 /* FloppyBurdTests.xctest */,
-				3FA2AC6C1C7BAFB6005F4564 /* FloppyBurdUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -354,42 +317,6 @@
 			productReference = 3FA2AC491C7BAFB6005F4564 /* FloppyBurd.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3FA2AC601C7BAFB6005F4564 /* FloppyBurdTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3FA2AC781C7BAFB6005F4564 /* Build configuration list for PBXNativeTarget "FloppyBurdTests" */;
-			buildPhases = (
-				3FA2AC5D1C7BAFB6005F4564 /* Sources */,
-				3FA2AC5E1C7BAFB6005F4564 /* Frameworks */,
-				3FA2AC5F1C7BAFB6005F4564 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3FA2AC631C7BAFB6005F4564 /* PBXTargetDependency */,
-			);
-			name = FloppyBurdTests;
-			productName = FloppyBurdTests;
-			productReference = 3FA2AC611C7BAFB6005F4564 /* FloppyBurdTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		3FA2AC6B1C7BAFB6005F4564 /* FloppyBurdUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3FA2AC7B1C7BAFB6005F4564 /* Build configuration list for PBXNativeTarget "FloppyBurdUITests" */;
-			buildPhases = (
-				3FA2AC681C7BAFB6005F4564 /* Sources */,
-				3FA2AC691C7BAFB6005F4564 /* Frameworks */,
-				3FA2AC6A1C7BAFB6005F4564 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3FA2AC6E1C7BAFB6005F4564 /* PBXTargetDependency */,
-			);
-			name = FloppyBurdUITests;
-			productName = FloppyBurdUITests;
-			productReference = 3FA2AC6C1C7BAFB6005F4564 /* FloppyBurdUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -397,21 +324,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Jeremy Novak";
 				TargetAttributes = {
 					3FA2AC481C7BAFB6005F4564 = {
 						CreatedOnToolsVersion = 7.2.1;
-					};
-					3FA2AC601C7BAFB6005F4564 = {
-						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = DHP96MS93Z;
-						TestTargetID = 3FA2AC481C7BAFB6005F4564;
-					};
-					3FA2AC6B1C7BAFB6005F4564 = {
-						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = DHP96MS93Z;
-						TestTargetID = 3FA2AC481C7BAFB6005F4564;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -429,8 +348,6 @@
 			projectRoot = "";
 			targets = (
 				3FA2AC481C7BAFB6005F4564 /* FloppyBurd */,
-				3FA2AC601C7BAFB6005F4564 /* FloppyBurdTests */,
-				3FA2AC6B1C7BAFB6005F4564 /* FloppyBurdUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -457,20 +374,6 @@
 				3F985DD81C86600E00ED3799 /* Default@2x.png in Resources */,
 				3FA2AC561C7BAFB6005F4564 /* Main.storyboard in Resources */,
 				3F985DD71C86600E00ED3799 /* Default-736h@3x.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3FA2AC5F1C7BAFB6005F4564 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3FA2AC6A1C7BAFB6005F4564 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,36 +410,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3FA2AC5D1C7BAFB6005F4564 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3FA2AC661C7BAFB6005F4564 /* FloppyBurdTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3FA2AC681C7BAFB6005F4564 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3FA2AC711C7BAFB6005F4564 /* FloppyBurdUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		3FA2AC631C7BAFB6005F4564 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3FA2AC481C7BAFB6005F4564 /* FloppyBurd */;
-			targetProxy = 3FA2AC621C7BAFB6005F4564 /* PBXContainerItemProxy */;
-		};
-		3FA2AC6E1C7BAFB6005F4564 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3FA2AC481C7BAFB6005F4564 /* FloppyBurd */;
-			targetProxy = 3FA2AC6D1C7BAFB6005F4564 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		3FA2AC541C7BAFB6005F4564 /* Main.storyboard */ = {
@@ -564,8 +438,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -587,7 +463,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -609,8 +485,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -626,9 +504,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -639,10 +518,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = DHP96MS93Z;
 				INFOPLIST_FILE = FloppyBurd/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.changeme.FloppyBurd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -651,60 +534,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = DHP96MS93Z;
 				INFOPLIST_FILE = FloppyBurd/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.changeme.FloppyBurd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		3FA2AC791C7BAFB6005F4564 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				INFOPLIST_FILE = FloppyBurdTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jnovak.FloppyBurdTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FloppyBurd.app/FloppyBurd";
-			};
-			name = Debug;
-		};
-		3FA2AC7A1C7BAFB6005F4564 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = FloppyBurdTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jnovak.FloppyBurdTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FloppyBurd.app/FloppyBurd";
-			};
-			name = Release;
-		};
-		3FA2AC7C1C7BAFB6005F4564 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				INFOPLIST_FILE = FloppyBurdUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jnovak.FloppyBurdUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = FloppyBurd;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		3FA2AC7D1C7BAFB6005F4564 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = FloppyBurdUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jnovak.FloppyBurdUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = FloppyBurd;
-				USES_XCTRUNNER = YES;
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -725,24 +562,6 @@
 			buildConfigurations = (
 				3FA2AC761C7BAFB6005F4564 /* Debug */,
 				3FA2AC771C7BAFB6005F4564 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3FA2AC781C7BAFB6005F4564 /* Build configuration list for PBXNativeTarget "FloppyBurdTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3FA2AC791C7BAFB6005F4564 /* Debug */,
-				3FA2AC7A1C7BAFB6005F4564 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3FA2AC7B1C7BAFB6005F4564 /* Build configuration list for PBXNativeTarget "FloppyBurdUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3FA2AC7C1C7BAFB6005F4564 /* Debug */,
-				3FA2AC7D1C7BAFB6005F4564 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

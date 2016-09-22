@@ -28,18 +28,18 @@ import SpriteKit
  * Unfortunately, SKAction does not have a concept of a timing function, so
  * we need to replicate the actions using SKTEffect subclasses.
  */
-public class SKTEffect {
+open class SKTEffect {
   unowned var node: SKNode
-  var duration: NSTimeInterval
-  public var timingFunction: ((CGFloat) -> CGFloat)?
+  var duration: TimeInterval
+  open var timingFunction: ((CGFloat) -> CGFloat)?
 
-  public init(node: SKNode, duration: NSTimeInterval) {
+  public init(node: SKNode, duration: TimeInterval) {
     self.node = node
     self.duration = duration
     timingFunction = SKTTimingFunctionLinear
   }
 
-  public func update(t: CGFloat) {
+  open func update(_ t: CGFloat) {
     // subclasses implement this
   }
 }
@@ -47,19 +47,19 @@ public class SKTEffect {
 /**
  * Moves a node from its current position to a new position.
  */
-public class SKTMoveEffect: SKTEffect {
+open class SKTMoveEffect: SKTEffect {
   var startPosition: CGPoint
   var delta: CGPoint
   var previousPosition: CGPoint
   
-  public init(node: SKNode, duration: NSTimeInterval, startPosition: CGPoint, endPosition: CGPoint) {
+  public init(node: SKNode, duration: TimeInterval, startPosition: CGPoint, endPosition: CGPoint) {
     previousPosition = node.position
     self.startPosition = startPosition
     delta = endPosition - startPosition
     super.init(node: node, duration: duration)
   }
   
-  public override func update(t: CGFloat) {
+  open override func update(_ t: CGFloat) {
     // This allows multiple SKTMoveEffect objects to modify the same node
     // at the same time.
     let newPosition = startPosition + delta*t
@@ -72,19 +72,19 @@ public class SKTMoveEffect: SKTEffect {
 /**
  * Scales a node to a certain scale factor.
  */
-public class SKTScaleEffect: SKTEffect {
+open class SKTScaleEffect: SKTEffect {
   var startScale: CGPoint
   var delta: CGPoint
   var previousScale: CGPoint
 
-  public init(node: SKNode, duration: NSTimeInterval, startScale: CGPoint, endScale: CGPoint) {
+  public init(node: SKNode, duration: TimeInterval, startScale: CGPoint, endScale: CGPoint) {
     previousScale = CGPoint(x: node.xScale, y: node.yScale)
     self.startScale = startScale
     delta = endScale - startScale
     super.init(node: node, duration: duration)
   }
 
-  public override func update(t: CGFloat) {
+  open override func update(_ t: CGFloat) {
     let newScale = startScale + delta*t
     let diff = newScale / previousScale
     previousScale = newScale
@@ -96,19 +96,19 @@ public class SKTScaleEffect: SKTEffect {
 /**
  * Rotates a node to a certain angle.
  */
-public class SKTRotateEffect: SKTEffect {
+open class SKTRotateEffect: SKTEffect {
   var startAngle: CGFloat
   var delta: CGFloat
   var previousAngle: CGFloat
 
-  public init(node: SKNode, duration: NSTimeInterval, startAngle: CGFloat, endAngle: CGFloat) {
+  public init(node: SKNode, duration: TimeInterval, startAngle: CGFloat, endAngle: CGFloat) {
     previousAngle = node.zRotation
     self.startAngle = startAngle
     delta = endAngle - startAngle
     super.init(node: node, duration: duration)
   }
 
-  public override func update(t: CGFloat) {
+  open override func update(_ t: CGFloat) {
     let newAngle = startAngle + delta*t
     let diff = newAngle - previousAngle
     previousAngle = newAngle
@@ -120,8 +120,8 @@ public class SKTRotateEffect: SKTEffect {
  * Wrapper that allows you to use SKTEffect objects as regular SKActions.
  */
 public extension SKAction {
-  public class func actionWithEffect(effect: SKTEffect) -> SKAction {
-    return SKAction.customActionWithDuration(effect.duration) { node, elapsedTime in
+  public class func actionWithEffect(_ effect: SKTEffect) -> SKAction {
+    return SKAction.customAction(withDuration: effect.duration) { node, elapsedTime in
       var t = elapsedTime / CGFloat(effect.duration)
 
       if let timingFunction = effect.timingFunction {

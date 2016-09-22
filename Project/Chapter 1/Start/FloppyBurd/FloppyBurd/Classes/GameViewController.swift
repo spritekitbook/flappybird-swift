@@ -22,10 +22,10 @@ class GameViewController: UIViewController {
                 
                 skView.ignoresSiblingOrder = false
                 
-                let menuScene = GameScene(size: UIScreen.mainScreen().bounds.size)
-                menuScene.scaleMode = SKSceneScaleMode.AspectFill
+                let menuScene = GameScene(size: UIScreen.main.bounds.size)
+                menuScene.scaleMode = SKSceneScaleMode.aspectFill
                 
-                let menuTransition = SKTransition.fadeWithColor(SKColor.blackColor(), duration: 0.25)
+                let menuTransition = SKTransition.fade(with: SKColor.black, duration: 0.25)
                 
                 skView.presentScene(menuScene, transition: menuTransition)
             }
@@ -33,18 +33,18 @@ class GameViewController: UIViewController {
     }
     
     
-    override func shouldAutorotate() -> Bool {
+    override var shouldAutorotate : Bool {
         return true
     }
     
-    override func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
-        return UIInterfaceOrientationMask.Portrait
+    override var supportedInterfaceOrientations : UIInterfaceOrientationMask {
+        return UIInterfaceOrientationMask.portrait
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
     
-    override func prefersStatusBarHidden() -> Bool {
+    override var prefersStatusBarHidden : Bool {
         return true
     }}

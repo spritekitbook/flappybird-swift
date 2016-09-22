@@ -43,7 +43,7 @@ public extension CGVector {
   /**
    * Adds (dx, dy) to the vector.
    */
-  public mutating func offset(dx dx: CGFloat, dy: CGFloat) -> CGVector {
+  public mutating func offset(dx: CGFloat, dy: CGFloat) -> CGVector {
     self.dx += dx
     self.dy += dy
     return self
@@ -83,7 +83,7 @@ public extension CGVector {
   /**
    * Calculates the distance between two CGVectors. Pythagoras!
    */
-  public func distanceTo(vector: CGVector) -> CGFloat {
+  public func distanceTo(_ vector: CGVector) -> CGFloat {
     return (self - vector).length()
   }
 
@@ -106,7 +106,7 @@ public func + (left: CGVector, right: CGVector) -> CGVector {
 /**
  * Increments a CGVector with the value of another.
  */
-public func += (inout left: CGVector, right: CGVector) {
+public func += (left: inout CGVector, right: CGVector) {
   left = left + right
 }
 
@@ -120,7 +120,7 @@ public func - (left: CGVector, right: CGVector) -> CGVector {
 /**
  * Decrements a CGVector with the value of another.
  */
-public func -= (inout left: CGVector, right: CGVector) {
+public func -= (left: inout CGVector, right: CGVector) {
   left = left - right
 }
 
@@ -134,7 +134,7 @@ public func * (left: CGVector, right: CGVector) -> CGVector {
 /**
  * Multiplies a CGVector with another.
  */
-public func *= (inout left: CGVector, right: CGVector) {
+public func *= (left: inout CGVector, right: CGVector) {
   left = left * right
 }
 
@@ -149,7 +149,7 @@ public func * (vector: CGVector, scalar: CGFloat) -> CGVector {
 /**
  * Multiplies the x and y fields of a CGVector with the same scalar value.
  */
-public func *= (inout vector: CGVector, scalar: CGFloat) {
+public func *= (vector: inout CGVector, scalar: CGFloat) {
   vector = vector * scalar
 }
 
@@ -163,7 +163,7 @@ public func / (left: CGVector, right: CGVector) -> CGVector {
 /**
  * Divides a CGVector by another.
  */
-public func /= (inout left: CGVector, right: CGVector) {
+public func /= (left: inout CGVector, right: CGVector) {
   left = left / right
 }
 
@@ -178,13 +178,13 @@ public func / (vector: CGVector, scalar: CGFloat) -> CGVector {
 /**
  * Divides the dx and dy fields of a CGVector by the same scalar value.
  */
-public func /= (inout vector: CGVector, scalar: CGFloat) {
+public func /= (vector: inout CGVector, scalar: CGFloat) {
   vector = vector / scalar
 }
 
 /**
  * Performs a linear interpolation between two CGVector values.
  */
-public func lerp(start start: CGVector, end: CGVector, t: CGFloat) -> CGVector {
+public func lerp(start: CGVector, end: CGVector, t: CGFloat) -> CGVector {
   return start + (end - start) * t
 }

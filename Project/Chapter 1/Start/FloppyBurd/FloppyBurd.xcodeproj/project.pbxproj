@@ -51,10 +51,6 @@
 		3FA2AC551C7BAFB6005F4564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3FA2AC571C7BAFB6005F4564 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FA2AC5C1C7BAFB6005F4564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3FA2AC651C7BAFB6005F4564 /* FloppyBurdTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloppyBurdTests.swift; sourceTree = "<group>"; };
-		3FA2AC671C7BAFB6005F4564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3FA2AC701C7BAFB6005F4564 /* FloppyBurdUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloppyBurdUITests.swift; sourceTree = "<group>"; };
-		3FA2AC721C7BAFB6005F4564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FA2AC7F1C7BB041005F4564 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FA2AC801C7BB041005F4564 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		3FA2AC811C7BB041005F4564 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -95,8 +91,6 @@
 			isa = PBXGroup;
 			children = (
 				3FA2AC4B1C7BAFB6005F4564 /* FloppyBurd */,
-				3FA2AC641C7BAFB6005F4564 /* FloppyBurdTests */,
-				3FA2AC6F1C7BAFB6005F4564 /* FloppyBurdUITests */,
 				3FA2AC4A1C7BAFB6005F4564 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -118,24 +112,6 @@
 				3FA2AC5C1C7BAFB6005F4564 /* Info.plist */,
 			);
 			path = FloppyBurd;
-			sourceTree = "<group>";
-		};
-		3FA2AC641C7BAFB6005F4564 /* FloppyBurdTests */ = {
-			isa = PBXGroup;
-			children = (
-				3FA2AC651C7BAFB6005F4564 /* FloppyBurdTests.swift */,
-				3FA2AC671C7BAFB6005F4564 /* Info.plist */,
-			);
-			path = FloppyBurdTests;
-			sourceTree = "<group>";
-		};
-		3FA2AC6F1C7BAFB6005F4564 /* FloppyBurdUITests */ = {
-			isa = PBXGroup;
-			children = (
-				3FA2AC701C7BAFB6005F4564 /* FloppyBurdUITests.swift */,
-				3FA2AC721C7BAFB6005F4564 /* Info.plist */,
-			);
-			path = FloppyBurdUITests;
 			sourceTree = "<group>";
 		};
 		3FA2AC7E1C7BB041005F4564 /* Classes */ = {

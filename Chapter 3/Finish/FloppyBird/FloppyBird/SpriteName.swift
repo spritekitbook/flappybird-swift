@@ -14,6 +14,8 @@ class SpriteName {
     class var playButton:String         { return "PlayButton" }
     class var retryButton:String        { return "RetryButton" }
     class var tutorial:String           { return "Tutorial" }
+    class var pauseButton:String        { return "PauseButton" }
+    class var resumeButton:String       { return "ResumeButton" }
     
     // Interface Sprite Names
     class var title:String              { return "GameTitle" }
